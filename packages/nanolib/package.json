@@ -52,6 +52,11 @@
       "types": "./dist/dedupe.d.ts",
       "import": "./dist/dedupe.mjs",
       "require": "./dist/dedupe.cjs"
+    },
+    "./global-this": {
+      "types": "./dist/global-this.d.ts",
+      "import": "./dist/global-this.mjs",
+      "require": "./dist/global-this.cjs"
     }
   },
   "license": "AGPL-3.0-only",
@@ -97,6 +102,7 @@
     "@alwatr/fetch": "workspace:^",
     "@alwatr/flat-string": "workspace:^",
     "@alwatr/flatomise": "workspace:^",
+    "@alwatr/global-this": "workspace:^",
     "@alwatr/is-number": "workspace:^",
     "@alwatr/local-storage": "workspace:^",
     "@alwatr/logger": "workspace:^",
