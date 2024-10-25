@@ -3,6 +3,31 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.0](https://github.com/Alwatr/nanolib/compare/@alwatr/nanolib@1.3.0...@alwatr/nanolib@1.4.0) (2024-10-25)
+
+### Features
+
+* **nanolib:** add `global-this` ([97aa2d0](https://github.com/Alwatr/nanolib/commit/97aa2d043d7e81dddc4fb37628a9ac94b78110aa)) by @mohammadhonarvar
+* **nanolib:** use `get-env-package` ([0e9e492](https://github.com/Alwatr/nanolib/commit/0e9e492210f2aad5d176ed0a3d268f12dd75a4bd)) by @mohammadhonarvar
+
+### Bug Fixes
+
+* **nanolib:** Update package.json to use "@alwatr/env" instead of "@alwatr/get-env" ([fd03dc0](https://github.com/Alwatr/nanolib/commit/fd03dc0d168a97758ddede62e7eb5c41c7cc2567)) by @AliMD
+
+### Code Refactoring
+
+* **env:** rename package and function ([6d72576](https://github.com/Alwatr/nanolib/commit/6d72576576964ba4bf3bdc5767e14d9293f941c9)) by @AliMD
+* **nanolib:** export `global-this` & update `exports` key in `package.json` ([42c8081](https://github.com/Alwatr/nanolib/commit/42c8081784cc41b28a151de7ae2e0a65b9391498)) by @mohammadhonarvar
+
+### Miscellaneous Chores
+
+* update devDependencies in package.json ([4d366af](https://github.com/Alwatr/nanolib/commit/4d366af59509004786ba5787c7bc322afb353e02)) by @AliMD
+
+### Dependencies update
+
+* update ([43ccc7c](https://github.com/Alwatr/nanolib/commit/43ccc7cd4e50e87fbb333b5a836bb8f4bedd462d)) by @mohammadhonarvar
+* update ([c958a81](https://github.com/Alwatr/nanolib/commit/c958a818ad10ba590f141f05aea1ac135d3e0fd5)) by @AliMD
+
 ## [1.3.0](https://github.com/Alwatr/nanolib/compare/@alwatr/nanolib@1.2.1...@alwatr/nanolib@1.3.0) (2024-10-15)
 
 ### Features

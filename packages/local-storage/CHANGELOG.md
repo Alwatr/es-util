@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.1.7](https://github.com/Alwatr/nanolib/compare/@alwatr/local-storage@1.1.6...@alwatr/local-storage@1.1.7) (2024-10-25)
+
+### Code Refactoring
+
+* **local-storage:** update removeItem method to use localStorage instead of window.localStorage ([9680a14](https://github.com/Alwatr/nanolib/commit/9680a141a4366d4bb146a73ffcd1bb63dd14f27c)) by @AliMD
+
 ## [1.1.6](https://github.com/Alwatr/nanolib/compare/@alwatr/local-storage@1.1.5...@alwatr/local-storage@1.1.6) (2024-10-12)
 
 **Note:** Version bump only for package @alwatr/local-storage

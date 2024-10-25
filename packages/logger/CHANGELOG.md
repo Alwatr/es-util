@@ -3,6 +3,13 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.7](https://github.com/Alwatr/nanolib/compare/@alwatr/logger@4.0.6...@alwatr/logger@4.0.7) (2024-10-25)
+
+### Dependencies update
+
+* bump the development-dependencies group across 1 directory with 2 updates ([2dfda9e](https://github.com/Alwatr/nanolib/commit/2dfda9ec38a595f1fd961490d1a2fbf060f20a66)) by @dependabot[bot]
+* bump the development-dependencies group with 8 updates ([16847ac](https://github.com/Alwatr/nanolib/commit/16847acba91da027c422e3910d0f2dcc1f084e93)) by @dependabot[bot]
+
 ## [4.0.6](https://github.com/Alwatr/nanolib/compare/@alwatr/logger@4.0.5...@alwatr/logger@4.0.6) (2024-10-12)
 
 **Note:** Version bump only for package @alwatr/logger
