@@ -43,7 +43,7 @@ export const parseDuration = (duration: Duration, toUnit?: DurationUnit): number
   let ms: number;
 
   if (typeof duration === 'number') {
-    ms = duration
+    ms = duration;
   }
   else {
     const durationNumberStr = duration.slice(0, duration.length - 1);

@@ -13,16 +13,16 @@ yarn add @alwatr/global-this
 ```typescript
 import {getGlobalThis} from '@alwatr/global-this';
 
-getGlobalThis<{alwatr:{foo: string}}>().alwatr = {
- foo: 'bar',
-}
+getGlobalThis<{alwatr: {foo: string}}>().alwatr = {
+  foo: 'bar',
+};
 ```
 
 ```typescript
 import {getGlobalThis} from '@alwatr/global-this';
 
 getGlobalThis().setTimeout(() => {
-  console.log(getGlobalThis<{alwatr:{foo: string}}>().alwatr.foo); // 'bar'
+  console.log(getGlobalThis<{alwatr: {foo: string}}>().alwatr.foo); // 'bar'
 }, 1_000);
 ```
 

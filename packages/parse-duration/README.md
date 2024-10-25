@@ -35,7 +35,6 @@ parseDuration('10d', 'h'); // 240
 | `M`  | Month       |
 | `y`  | Year        |
 
-
 ## Sponsors
 
 The following companies, organizations, and individuals support Nanolib ongoing maintenance and development. Become a Sponsor to get your logo on our README and website.

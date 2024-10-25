@@ -30,10 +30,10 @@ Retrieves the value of an environment variable.
 
 **Parameters:**
 
-* `option`: An object with the following properties:
-  * `name`: The name of the environment variable.
-  * `defaultValue`: The default value to use if the environment variable is not set.
-  * `developmentValue`: The value to use in a development environment.
+- `option`: An object with the following properties:
+  - `name`: The name of the environment variable.
+  - `defaultValue`: The default value to use if the environment variable is not set.
+  - `developmentValue`: The value to use in a development environment.
 
 **Returns:**
 

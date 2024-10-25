@@ -7,69 +7,69 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Miscellaneous Chores
 
-* **eslint-config:** Update peer dependencies in package.json ([690a7db](https://github.com/Alwatr/nanolib/commit/690a7db48eadd6e110c2e9760a882e4bc5f12fa0)) by @AliMD
+- **eslint-config:** Update peer dependencies in package.json ([690a7db](https://github.com/Alwatr/nanolib/commit/690a7db48eadd6e110c2e9760a882e4bc5f12fa0)) by @AliMD
 
 ## [1.2.10](https://github.com/Alwatr/nanolib/compare/@alwatr/eslint-config@1.2.9...@alwatr/eslint-config@1.2.10) (2024-10-11)
 
 ### Miscellaneous Chores
 
-* include LICENSE and LEGAL files to publish ([09f366f](https://github.com/Alwatr/nanolib/commit/09f366f680bfa9fb26acb2cd1ccbc68c5a9e9ad8)) by @AliMD
+- include LICENSE and LEGAL files to publish ([09f366f](https://github.com/Alwatr/nanolib/commit/09f366f680bfa9fb26acb2cd1ccbc68c5a9e9ad8)) by @AliMD
 
 ## [1.2.9](https://github.com/Alwatr/nanolib/compare/@alwatr/eslint-config@1.2.8...@alwatr/eslint-config@1.2.9) (2024-10-10)
 
 ### Code Refactoring
 
-* disable unused labels linting rule ([043cca0](https://github.com/Alwatr/nanolib/commit/043cca023790260417a7717d9fdf28e8b6a691e7)) by @AliMD
+- disable unused labels linting rule ([043cca0](https://github.com/Alwatr/nanolib/commit/043cca023790260417a7717d9fdf28e8b6a691e7)) by @AliMD
 
 ### Dependencies update
 
-* bump the development-dependencies group with 10 updates ([fa4aaf0](https://github.com/Alwatr/nanolib/commit/fa4aaf04c907ecae06aa14000ce35216170c15ad)) by @dependabot[bot]
+- bump the development-dependencies group with 10 updates ([fa4aaf0](https://github.com/Alwatr/nanolib/commit/fa4aaf04c907ecae06aa14000ce35216170c15ad)) by @dependabot[bot]
 
 ## [1.2.8](https://github.com/Alwatr/nanolib/compare/@alwatr/eslint-config@1.2.7...@alwatr/eslint-config@1.2.8) (2024-09-29)
 
 ### Bug Fixes
 
-* all dependeny topology ([1c17f34](https://github.com/Alwatr/nanolib/commit/1c17f349adf3e98e2a80ab2da4f0f81028dc9c5f)) by @mohammadhonarvar
+- all dependeny topology ([1c17f34](https://github.com/Alwatr/nanolib/commit/1c17f349adf3e98e2a80ab2da4f0f81028dc9c5f)) by @mohammadhonarvar
 
 ### Miscellaneous Chores
 
-* **eslint-config:** change the license to AGPL-3.0 ([6ff5fbd](https://github.com/Alwatr/nanolib/commit/6ff5fbd96f7adfcde0e8f5fd9f78a3052f58ad20)) by @ArmanAsadian
+- **eslint-config:** change the license to AGPL-3.0 ([6ff5fbd](https://github.com/Alwatr/nanolib/commit/6ff5fbd96f7adfcde0e8f5fd9f78a3052f58ad20)) by @ArmanAsadian
 
 ### Dependencies update
 
-* bump esbuild in the production-dependencies group ([d829afb](https://github.com/Alwatr/nanolib/commit/d829afbcefcb4053b7c3f6965d0a0e9e5ba33a11)) by @dependabot[bot]
+- bump esbuild in the production-dependencies group ([d829afb](https://github.com/Alwatr/nanolib/commit/d829afbcefcb4053b7c3f6965d0a0e9e5ba33a11)) by @dependabot[bot]
 
 ## [1.2.7](https://github.com/Alwatr/nanolib/compare/@alwatr/eslint-config@1.2.6...@alwatr/eslint-config@1.2.7) (2024-09-21)
 
 ### Dependencies update
 
-* bump eslint in the development-dependencies group ([abb3406](https://github.com/Alwatr/nanolib/commit/abb3406edd8058f21b05ffb8a8025e85b5b82755)) by @dependabot[bot]
+- bump eslint in the development-dependencies group ([abb3406](https://github.com/Alwatr/nanolib/commit/abb3406edd8058f21b05ffb8a8025e85b5b82755)) by @dependabot[bot]
 
 ## [1.2.6](https://github.com/Alwatr/nanolib/compare/@alwatr/eslint-config@1.2.5...@alwatr/eslint-config@1.2.6) (2024-09-15)
 
 ### Dependencies update
 
-* bump the development-dependencies group across 1 directory with 10 updates ([9ed98ff](https://github.com/Alwatr/nanolib/commit/9ed98ffd0668d5a36e255c82edab3af53bffda8f)) by @dependabot[bot]
+- bump the development-dependencies group across 1 directory with 10 updates ([9ed98ff](https://github.com/Alwatr/nanolib/commit/9ed98ffd0668d5a36e255c82edab3af53bffda8f)) by @dependabot[bot]
 
 ## [1.2.5](https://github.com/Alwatr/nanolib/compare/@alwatr/eslint-config@1.2.4...@alwatr/eslint-config@1.2.5) (2024-08-31)
 
 ### Dependencies update
 
-* update all dependencies ([1e0c30e](https://github.com/Alwatr/nanolib/commit/1e0c30e6a3a8e19deb5185814e24ab6c08dca573)) by @AliMD
+- update all dependencies ([1e0c30e](https://github.com/Alwatr/nanolib/commit/1e0c30e6a3a8e19deb5185814e24ab6c08dca573)) by @AliMD
 
 ## [1.2.4](https://github.com/Alwatr/nanolib/compare/@alwatr/eslint-config@1.2.3...@alwatr/eslint-config@1.2.4) (2024-07-04)
 
 ### Dependencies update
 
-* bump esbuild ([78d8552](https://github.com/Alwatr/nanolib/commit/78d8552e8882a0d6e200c5d340b313d5a7999b0e)) by @dependabot[bot]
-* update all dependencies ([0e908b4](https://github.com/Alwatr/nanolib/commit/0e908b476a6b976ec2447f864c8cafcbb8a0f099)) by @
+- bump esbuild ([78d8552](https://github.com/Alwatr/nanolib/commit/78d8552e8882a0d6e200c5d340b313d5a7999b0e)) by @dependabot[bot]
+- update all dependencies ([0e908b4](https://github.com/Alwatr/nanolib/commit/0e908b476a6b976ec2447f864c8cafcbb8a0f099)) by @
 
 ## [1.2.3](https://github.com/Alwatr/nanolib/compare/@alwatr/eslint-config@1.2.2...@alwatr/eslint-config@1.2.3) (2024-05-12)
 
 ### Dependencies update
 
-* bump esbuild in the production-dependencies group ([1dffb4f](https://github.com/Alwatr/nanolib/commit/1dffb4f3f6f4a49cc75acc1dea777ee8c8b901ee)) by @dependabot[bot]
-* upgrade ([6dbd300](https://github.com/Alwatr/nanolib/commit/6dbd300642c9bcc9e7d0b281e244bf1b06eb1c38)) by @AliMD
+- bump esbuild in the production-dependencies group ([1dffb4f](https://github.com/Alwatr/nanolib/commit/1dffb4f3f6f4a49cc75acc1dea777ee8c8b901ee)) by @dependabot[bot]
+- upgrade ([6dbd300](https://github.com/Alwatr/nanolib/commit/6dbd300642c9bcc9e7d0b281e244bf1b06eb1c38)) by @AliMD
 
 ## [1.2.2](https://github.com/Alwatr/nanolib/compare/@alwatr/eslint-config@1.2.1...@alwatr/eslint-config@1.2.2) (2024-04-25)
 
@@ -83,13 +83,13 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* **eslint-config:** extra import extensions support ([0e0652b](https://github.com/Alwatr/nanolib/commit/0e0652b564ef11467b3e6315a76ab6ff7b583c77)) by @AliMD
-* **eslint-config:** require-extensions ([53f6f50](https://github.com/Alwatr/nanolib/commit/53f6f50c69c26efdac53a6eed58b5ab76256c136)) by @njfamirm
+- **eslint-config:** extra import extensions support ([0e0652b](https://github.com/Alwatr/nanolib/commit/0e0652b564ef11467b3e6315a76ab6ff7b583c77)) by @AliMD
+- **eslint-config:** require-extensions ([53f6f50](https://github.com/Alwatr/nanolib/commit/53f6f50c69c26efdac53a6eed58b5ab76256c136)) by @njfamirm
 
 ### Miscellaneous Chores
 
-* **deps:** update ([1a45030](https://github.com/Alwatr/nanolib/commit/1a450305440b710a300787d4ca24b1ed8c6a39d7)) by @AliMD
-* **eslint-config:** add `eslint-plugin-require-extensions` to peerDependencies ([77d0468](https://github.com/Alwatr/nanolib/commit/77d0468ff7ba41b1c278271bcf5fb200c6026f51)) by @AliMD
+- **deps:** update ([1a45030](https://github.com/Alwatr/nanolib/commit/1a450305440b710a300787d4ca24b1ed8c6a39d7)) by @AliMD
+- **eslint-config:** add `eslint-plugin-require-extensions` to peerDependencies ([77d0468](https://github.com/Alwatr/nanolib/commit/77d0468ff7ba41b1c278271bcf5fb200c6026f51)) by @AliMD
 
 ## [1.1.0](https://github.com/Alwatr/nanolib/compare/@alwatr/eslint-config@1.0.9...@alwatr/eslint-config@1.1.0) (2024-01-24)
 

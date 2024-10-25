@@ -24,7 +24,7 @@ export type GetEnvOption = {
    * It will be overwrite the default value in development mode and completely ignored in production mode.
    */
   developmentValue?: string;
-}
+};
 
 export function getEnv(option: GetEnvOption): string {
   let value = process.env[option.name];

@@ -128,7 +128,7 @@ const presetRecord = {
     mangleProps: '_$',
     target: 'node20',
     ...(devMode ? developmentOptions : productionOptions),
-  }
+  },
 };
 
 function getOptions() {

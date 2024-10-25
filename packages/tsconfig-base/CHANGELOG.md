@@ -7,33 +7,33 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Miscellaneous Chores
 
-* include LICENSE and LEGAL files to publish ([09f366f](https://github.com/Alwatr/nanolib/commit/09f366f680bfa9fb26acb2cd1ccbc68c5a9e9ad8)) by @AliMD
+- include LICENSE and LEGAL files to publish ([09f366f](https://github.com/Alwatr/nanolib/commit/09f366f680bfa9fb26acb2cd1ccbc68c5a9e9ad8)) by @AliMD
 
 ## [1.3.1](https://github.com/Alwatr/nanolib/compare/@alwatr/tsconfig-base@1.3.0...@alwatr/tsconfig-base@1.3.1) (2024-10-10)
 
 ### Code Refactoring
 
-* enable allowUnusedLabels in tsconfig.json ([a25e708](https://github.com/Alwatr/nanolib/commit/a25e70892f7499a5f008b92fd8fd1abcadbdeb56)) by @AliMD
+- enable allowUnusedLabels in tsconfig.json ([a25e708](https://github.com/Alwatr/nanolib/commit/a25e70892f7499a5f008b92fd8fd1abcadbdeb56)) by @AliMD
 
 ## [1.3.0](https://github.com/Alwatr/nanolib/compare/@alwatr/tsconfig-base@1.2.0...@alwatr/tsconfig-base@1.3.0) (2024-09-29)
 
 ### Features
 
-* **tsconfig-base:** use ESNext instead of ES2023 for the "lib" option ([47673e4](https://github.com/Alwatr/nanolib/commit/47673e481a1fc4dfd4ba2576d5dd5590da93adac)) by @AliMD
+- **tsconfig-base:** use ESNext instead of ES2023 for the "lib" option ([47673e4](https://github.com/Alwatr/nanolib/commit/47673e481a1fc4dfd4ba2576d5dd5590da93adac)) by @AliMD
 
 ### Bug Fixes
 
-* all dependeny topology ([1c17f34](https://github.com/Alwatr/nanolib/commit/1c17f349adf3e98e2a80ab2da4f0f81028dc9c5f)) by @mohammadhonarvar
+- all dependeny topology ([1c17f34](https://github.com/Alwatr/nanolib/commit/1c17f349adf3e98e2a80ab2da4f0f81028dc9c5f)) by @mohammadhonarvar
 
 ### Miscellaneous Chores
 
-* **tsconfig-base:** change the license to AGPL-3.0 ([2236725](https://github.com/Alwatr/nanolib/commit/223672599c3cf1bf976a1c8beb0b0236cef2efca)) by @ArmanAsadian
+- **tsconfig-base:** change the license to AGPL-3.0 ([2236725](https://github.com/Alwatr/nanolib/commit/223672599c3cf1bf976a1c8beb0b0236cef2efca)) by @ArmanAsadian
 
 ## [1.2.0](https://github.com/Alwatr/nanolib/compare/@alwatr/tsconfig-base@1.1.2...@alwatr/tsconfig-base@1.2.0) (2024-07-04)
 
 ### Features
 
-* **tsconfig-base:** update "useDefineForClassFields" to false in tsconfig.json ([288c0ae](https://github.com/Alwatr/nanolib/commit/288c0aef4b7729afd8aba09cf56f02dea31bfd99)) by @
+- **tsconfig-base:** update "useDefineForClassFields" to false in tsconfig.json ([288c0ae](https://github.com/Alwatr/nanolib/commit/288c0aef4b7729afd8aba09cf56f02dea31bfd99)) by @
 
 ## [1.1.2](https://github.com/Alwatr/nanolib/compare/@alwatr/tsconfig-base@1.1.1...@alwatr/tsconfig-base@1.1.2) (2024-01-31)
 

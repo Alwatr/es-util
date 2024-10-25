@@ -21,7 +21,7 @@ npm install @alwatr/resolve-url
 ## Usage
 
 ```ts
-import { resolveUrl } from '@alwatr/resolve-url';
+import {resolveUrl} from '@alwatr/resolve-url';
 
 console.log(resolveUrl('/', 'ali', 'v1')); // '/ali/v1'
 console.log(resolveUrl('/', '/ali/', '/v1')); // '/ali/v1'

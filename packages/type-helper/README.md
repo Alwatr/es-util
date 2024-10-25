@@ -11,7 +11,7 @@ yarn add -D @alwatr/type-helper
 ## Import in Your File
 
 ```typescript
-import type { JSONObject } from '@alwatr/type-helper/types';
+import type {JSONObject} from '@alwatr/type-helper/types';
 ```
 
 ## Add to Global Types
@@ -25,7 +25,7 @@ To add the type helpers to your global types, update your `tsconfig.json`:
     "types": ["node", "@alwatr/nano-build", "@alwatr/type-helper"]
   },
   "include": ["src/**/*.ts"],
-  "references": [{ "path": "../package-tracer" }]
+  "references": [{"path": "../package-tracer"}]
 }
 ```
 
@@ -36,9 +36,9 @@ const obj: JSONObject = {
   foo: 'bar',
   baz: {
     qux: 1,
-    arr: [1, 2, 3]
+    arr: [1, 2, 3],
   },
-  qux: true
+  qux: true,
 };
 ```
 

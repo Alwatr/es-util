@@ -53,10 +53,9 @@ interface PlatformInfo {
 }
 
 export const platformInfo: PlatformInfo = /* #__PURE__ */ (() => {
-
   /**
- * Represents information about the current platform.
- */
+   * Represents information about the current platform.
+   */
   const platformInfo_: Mutable<PlatformInfo> = {
     development: false,
     isNode: false,

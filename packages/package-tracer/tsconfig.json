@@ -7,6 +7,5 @@
     "composite": true,
     "types": ["@alwatr/nano-build", "@alwatr/type-helper"]
   },
-  "include": ["src/**/*.ts"],
-
+  "include": ["src/**/*.ts"]
 }
