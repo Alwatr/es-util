@@ -53,13 +53,13 @@ greet('Ali');
 1. Open your browser's developer tools.
 2. Go to the "Application" or "Storage" tab.
 3. Find "Local Storage" and locate your application's domain.
-4. Add a new key-value pair: `debug` with the value `1`.
+4. Add a new key-value pair: `ALWATR_DEBUG` with the value `1`.
 5. Reload the page.
 
 Or use the following code snippet in the browser console:
 
 ```javascript
-window.localStorage?.setItem('debug', '1');
+window.localStorage?.setItem('ALWATR_DEBUG', '1');
 ```
 
 > **Note:** Ensure the browser console's log level is set to include "Verbose" or "All" to see debug messages.
