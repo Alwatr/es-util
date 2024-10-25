@@ -6,7 +6,7 @@ __dev_mode__: packageTracer.add(__package_name__, __package_version__);
 /**
  * Parameters for retrieving an environment variable value.
  */
-export type GetEnvValueParams = {
+export type GetEnvValueOption = {
   /**
    * The name of the environment variable.
    */
@@ -26,14 +26,15 @@ export type GetEnvValueParams = {
   developmentValue?: string;
 }
 
-export function getEnvValue(option: GetEnvValueParams): string {
+export function getEnvValue(option: GetEnvValueOption): string {
   let value = process.env[option.name];
   if (value === '') value = undefined; // empty string is considered as undefined in environment variables
 
-  value ??= option.defaultValue;
-
   if (platformInfo.development === true) {
-    value ??= option.developmentValue;
+    value ??= option.developmentValue ?? option.defaultValue;
+  }
+  else {
+    value ??= option.defaultValue;
   }
 
   if (value === undefined) {
