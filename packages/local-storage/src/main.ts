@@ -99,6 +99,6 @@ export const localJsonStorage = {
    */
   removeItem(name: string, version = 1): void {
     const key = this.key_(name, version);
-    window.localStorage.removeItem(key);
+    localStorage.removeItem(key);
   },
 } as const;
