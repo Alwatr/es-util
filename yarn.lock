@@ -184,6 +184,19 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@alwatr/iranian-national-code-validator@workspace:^, @alwatr/iranian-national-code-validator@workspace:packages/iranian-national-code-validator":
+  version: 0.0.0-use.local
+  resolution: "@alwatr/iranian-national-code-validator@workspace:packages/iranian-national-code-validator"
+  dependencies:
+    "@alwatr/nano-build": "workspace:^"
+    "@alwatr/package-tracer": "workspace:^"
+    "@alwatr/prettier-config": "workspace:^"
+    "@alwatr/tsconfig-base": "workspace:^"
+    "@alwatr/type-helper": "workspace:^"
+    typescript: "npm:^5.6.3"
+  languageName: unknown
+  linkType: soft
+
 "@alwatr/is-number@workspace:^, @alwatr/is-number@workspace:packages/is-number":
   version: 0.0.0-use.local
   resolution: "@alwatr/is-number@workspace:packages/is-number"
@@ -254,6 +267,7 @@ __metadata:
     "@alwatr/flatomise": "workspace:^"
     "@alwatr/global-this": "workspace:^"
     "@alwatr/http-primer": "workspace:^"
+    "@alwatr/iranian-national-code-validator": "workspace:^"
     "@alwatr/is-number": "workspace:^"
     "@alwatr/local-storage": "workspace:^"
     "@alwatr/logger": "workspace:^"
@@ -267,7 +281,6 @@ __metadata:
     "@alwatr/resolve-url": "workspace:^"
     "@alwatr/tsconfig-base": "workspace:^"
     "@alwatr/unicode-digits": "workspace:^"
-    "@alwatr/validate-national-code": "workspace:^"
     typescript: "npm:^5.6.3"
   languageName: unknown
   linkType: soft
@@ -392,19 +405,6 @@ __metadata:
 "@alwatr/unicode-digits@workspace:^, @alwatr/unicode-digits@workspace:packages/unicode-digits":
   version: 0.0.0-use.local
   resolution: "@alwatr/unicode-digits@workspace:packages/unicode-digits"
-  dependencies:
-    "@alwatr/nano-build": "workspace:^"
-    "@alwatr/package-tracer": "workspace:^"
-    "@alwatr/prettier-config": "workspace:^"
-    "@alwatr/tsconfig-base": "workspace:^"
-    "@alwatr/type-helper": "workspace:^"
-    typescript: "npm:^5.6.3"
-  languageName: unknown
-  linkType: soft
-
-"@alwatr/validate-national-code@workspace:^, @alwatr/validate-national-code@workspace:packages/validate-national-code":
-  version: 0.0.0-use.local
-  resolution: "@alwatr/validate-national-code@workspace:packages/validate-national-code"
   dependencies:
     "@alwatr/nano-build": "workspace:^"
     "@alwatr/package-tracer": "workspace:^"
