@@ -96,7 +96,7 @@
     "@alwatr/fetch": "workspace:^",
     "@alwatr/flat-string": "workspace:^",
     "@alwatr/flatomise": "workspace:^",
-    "@alwatr/get-env": "workspace:^",
+    "@alwatr/env": "workspace:^",
     "@alwatr/is-number": "workspace:^",
     "@alwatr/local-storage": "workspace:^",
     "@alwatr/logger": "workspace:^",
