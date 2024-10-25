@@ -1,7 +1,7 @@
 {
   "name": "@alwatr/env",
   "version": "1.0.0-0",
-  "description": "Get a value of `env ` by given key.",
+  "description": "A tiny and tree-shakable TypeScript library to get environment variables with type-safe and fallback value for development and production.",
   "author": "S. Ali Mihandoost <ali.mihandoost@gmail.com>",
   "keywords": [
     "get-env-value",
