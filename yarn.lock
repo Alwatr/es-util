@@ -147,6 +147,7 @@ __metadata:
   dependencies:
     "@alwatr/nano-build": "workspace:^"
     "@alwatr/package-tracer": "workspace:^"
+    "@alwatr/platform-info": "workspace:^"
     "@alwatr/prettier-config": "workspace:^"
     "@alwatr/tsconfig-base": "workspace:^"
     "@alwatr/type-helper": "workspace:^"
