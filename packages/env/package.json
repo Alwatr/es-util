@@ -1,5 +1,5 @@
 {
-  "name": "@alwatr/get-env-value",
+  "name": "@alwatr/env",
   "version": "1.0.0-0",
   "description": "Get a value of `env ` by given key.",
   "author": "S. Ali Mihandoost <ali.mihandoost@gmail.com>",
