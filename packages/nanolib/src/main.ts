@@ -14,3 +14,4 @@ export * from '@alwatr/render-state';
 export * from '@alwatr/unicode-digits';
 export * from '@alwatr/resolve-url';
 export * from '@alwatr/env';
+export * from '@alwatr/global-this';

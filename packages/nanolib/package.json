@@ -52,11 +52,6 @@
       "types": "./dist/dedupe.d.ts",
       "import": "./dist/dedupe.mjs",
       "require": "./dist/dedupe.cjs"
-    },
-    "./global-this": {
-      "types": "./dist/global-this.d.ts",
-      "import": "./dist/global-this.mjs",
-      "require": "./dist/global-this.cjs"
     }
   },
   "license": "AGPL-3.0-only",
