@@ -4,6 +4,8 @@
   "description": "A tiny and tree-shakable TypeScript library to get environment variables with type-safe and fallback value for development and production.",
   "author": "S. Ali Mihandoost <ali.mihandoost@gmail.com>",
   "keywords": [
+    "get-env",
+    "getEnv",
     "get-env-value",
     "env",
     "ECMAScript",
@@ -41,9 +43,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Alwatr/nanolib",
-    "directory": "packages/get-env-value"
+    "directory": "packages/env"
   },
-  "homepage": "https://github.com/Alwatr/nanolib/tree/next/packages/get-env-value#readme",
+  "homepage": "https://github.com/Alwatr/nanolib/tree/next/packages/env#readme",
   "bugs": {
     "url": "https://github.com/Alwatr/nanolib/issues"
   },
