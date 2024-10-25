@@ -92,6 +92,7 @@
     "@alwatr/dedupe": "workspace:^",
     "@alwatr/deep-clone": "workspace:^",
     "@alwatr/delay": "workspace:^",
+    "@alwatr/env": "workspace:^",
     "@alwatr/exit-hook": "workspace:^",
     "@alwatr/fetch": "workspace:^",
     "@alwatr/flat-string": "workspace:^",

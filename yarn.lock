@@ -63,6 +63,21 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@alwatr/env@workspace:^, @alwatr/env@workspace:packages/env":
+  version: 0.0.0-use.local
+  resolution: "@alwatr/env@workspace:packages/env"
+  dependencies:
+    "@alwatr/nano-build": "workspace:^"
+    "@alwatr/package-tracer": "workspace:^"
+    "@alwatr/platform-info": "workspace:^"
+    "@alwatr/prettier-config": "workspace:^"
+    "@alwatr/tsconfig-base": "workspace:^"
+    "@alwatr/type-helper": "workspace:^"
+    "@types/node": "npm:^22.7.9"
+    typescript: "npm:^5.6.3"
+  languageName: unknown
+  linkType: soft
+
 "@alwatr/eslint-config@workspace:^, @alwatr/eslint-config@workspace:packages/eslint-config":
   version: 0.0.0-use.local
   resolution: "@alwatr/eslint-config@workspace:packages/eslint-config"
@@ -218,6 +233,7 @@ __metadata:
     "@alwatr/dedupe": "workspace:^"
     "@alwatr/deep-clone": "workspace:^"
     "@alwatr/delay": "workspace:^"
+    "@alwatr/env": "workspace:^"
     "@alwatr/exit-hook": "workspace:^"
     "@alwatr/fetch": "workspace:^"
     "@alwatr/flat-string": "workspace:^"
@@ -2229,6 +2245,15 @@ __metadata:
   dependencies:
     undici-types: "npm:~6.19.2"
   checksum: 10c0/d4406a63afce981c363fb1d1954aaf1759ad2d487c0833ebf667565ea4e45ff217d6fab4b5343badbdeccdf9d2e4a0841d633e0c929ceabcb33c288663dd0c73
+  languageName: node
+  linkType: hard
+
+"@types/node@npm:^22.7.9":
+  version: 22.7.9
+  resolution: "@types/node@npm:22.7.9"
+  dependencies:
+    undici-types: "npm:~6.19.2"
+  checksum: 10c0/2d1917702b9d9ede8e4d8151cd8b1af8bc147d543486474ffbe0742e38764ea73105939e6a767addf7a4c39e842e16eae762bff90617d7b7f9ee3fbbb2d23bfa
   languageName: node
   linkType: hard
 
