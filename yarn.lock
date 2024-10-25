@@ -247,6 +247,7 @@ __metadata:
     "@alwatr/package-tracer": "workspace:^"
     "@alwatr/parse-duration": "workspace:^"
     "@alwatr/platform-info": "workspace:^"
+    "@alwatr/prettier-config": "workspace:^"
     "@alwatr/render-state": "workspace:^"
     "@alwatr/resolve-url": "workspace:^"
     "@alwatr/tsconfig-base": "workspace:^"
@@ -6809,6 +6810,7 @@ __metadata:
   dependencies:
     "@alwatr/nano-build": "workspace:^"
     "@alwatr/nanolib": "workspace:^"
+    "@alwatr/prettier-config": "workspace:^"
     "@alwatr/tsconfig-base": "workspace:^"
     typescript: "npm:^5.6.3"
   languageName: unknown
