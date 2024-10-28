@@ -1,6 +1,6 @@
 import {delay} from '@alwatr/delay';
 import {getGlobalThis} from '@alwatr/global-this';
-import {HttpStatusCodes} from '@alwatr/http-primer';
+import {HttpStatusCodes, MimeTypes} from '@alwatr/http-primer';
 import {createLogger} from '@alwatr/logger';
 import {packageTracer} from '@alwatr/package-tracer';
 import {parseDuration} from '@alwatr/parse-duration';
@@ -61,7 +61,7 @@ export function processOptions_(options: FetchOptions): Required<FetchOptions> {
 
   if (options.bodyJson !== undefined) {
     options.body = JSON.stringify(options.bodyJson);
-    options.headers['content-type'] = 'application/json';
+    options.headers['content-type'] = MimeTypes.JSON;
   }
 
   if (options.bearerToken !== undefined) {
