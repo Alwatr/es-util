@@ -13,6 +13,7 @@
     {"path": "../logger"},
     {"path": "../global-this"},
     {"path": "../delay"},
-    {"path": "../parse-duration"}
+    {"path": "../parse-duration"},
+    {"path": "../http-primer"},
   ]
 }

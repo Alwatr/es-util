@@ -1,3 +1,5 @@
+import {HttpStatusCodes, type HttpStatusCode} from '@alwatr/http-primer';
+
 import {handleCacheStrategy_, logger_, processOptions_, cacheSupported} from './core.js';
 
 import type {FetchOptions, ResponseError, ResponseSuccess} from './type.js';
@@ -39,13 +41,13 @@ export async function fetchJson<T extends JsonObject>(options: FetchOptions): Pr
     responseText = await response.text();
     responseJson = JSON.parse(responseText) as ResponseSuccess<T>;
     responseJson.ok = true;
-    responseJson.statusCode = response.status;
+    responseJson.statusCode = response.status as HttpStatusCode;
     return responseJson;
   }
   catch (error) {
     const responseError: ResponseError = {
       ok: false,
-      statusCode: response?.status ?? 500,
+      statusCode: (response?.status as HttpStatusCode) ?? HttpStatusCodes.Error_Server_500_Internal_Server_Error,
       errorCode: (responseJson?.errorCode as string) ?? (error as Error).message,
       errorMessage: (responseJson?.errorMessage as string) ?? (error as Error).message,
       responseText,
