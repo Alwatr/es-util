@@ -1,11 +1,11 @@
 {
-  "name": "@alwatr/http-utils",
+  "name": "@alwatr/http-primer",
   "version": "1.0.0-0",
-  "description": "Some constants that are categorized based on `HTTP` terminology.",
+  "description": "Essential HTTP utilities for TypeScript, including types for HTTP methods, status codes, and headers.",
   "author": "S. Ali Mihandoost <ali.mihandoost@gmail.com>",
   "keywords": [
     "http",
-    "http-utils",
+    "http-primer",
     "cross-platform",
     "ECMAScript",
     "typescript",
@@ -44,9 +44,9 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Alwatr/nanolib",
-    "directory": "packages/http-utils"
+    "directory": "packages/http-primer"
   },
-  "homepage": "https://github.com/Alwatr/nanolib/tree/next/packages/http-utils#readme",
+  "homepage": "https://github.com/Alwatr/nanolib/tree/next/packages/http-primer#readme",
   "bugs": {
     "url": "https://github.com/Alwatr/nanolib/issues"
   },

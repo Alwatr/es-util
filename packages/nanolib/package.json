@@ -98,7 +98,7 @@
     "@alwatr/flat-string": "workspace:^",
     "@alwatr/flatomise": "workspace:^",
     "@alwatr/global-this": "workspace:^",
-    "@alwatr/http-utils": "workspace:^",
+    "@alwatr/http-primer": "workspace:^",
     "@alwatr/is-number": "workspace:^",
     "@alwatr/local-storage": "workspace:^",
     "@alwatr/logger": "workspace:^",
