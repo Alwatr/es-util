@@ -1,15 +1,15 @@
 {
-  "name": "@alwatr/fetch",
-  "version": "4.1.7",
-  "description": "Enhanced fetch API with cache strategy, retry pattern, timeout, helper methods and enhanced types.",
+  "name": "@alwatr/http-primer",
+  "version": "1.0.0-0",
+  "description": "Essential HTTP utilities for TypeScript, including types for HTTP methods, status codes, and headers.",
   "author": "S. Ali Mihandoost <ali.mihandoost@gmail.com>",
   "keywords": [
-    "fetch",
-    "request",
-    "api",
-    "retry",
-    "cache",
-    "timeout",
+    "http",
+    "http-primer",
+    "status-codes",
+    "status",
+    "headers-types",
+    "http-headers",
     "cross-platform",
     "ECMAScript",
     "typescript",
@@ -48,16 +48,15 @@
   "repository": {
     "type": "git",
     "url": "https://github.com/Alwatr/nanolib",
-    "directory": "packages/fetch"
+    "directory": "packages/http-primer"
   },
-  "homepage": "https://github.com/Alwatr/nanolib/tree/next/packages/fetch#readme",
+  "homepage": "https://github.com/Alwatr/nanolib/tree/next/packages/http-primer#readme",
   "bugs": {
     "url": "https://github.com/Alwatr/nanolib/issues"
   },
   "prettier": "@alwatr/prettier-config",
   "scripts": {
     "b": "yarn run build",
-    "t": "yarn run test",
     "w": "yarn run watch",
     "c": "yarn run clean",
     "cb": "yarn run clean && yarn run build",
@@ -65,26 +64,19 @@
     "build": "yarn run build:ts && yarn run build:es",
     "build:es": "nano-build --preset=module",
     "build:ts": "tsc --build",
-    "test": "NODE_OPTIONS=\"$NODE_OPTIONS --enable-source-maps --experimental-vm-modules\" jest",
     "watch": "yarn run watch:ts & yarn run watch:es",
     "watch:es": "yarn run build:es --watch",
     "watch:ts": "yarn run build:ts --watch --preserveWatchOutput",
     "clean": "rm -rfv dist *.tsbuildinfo"
   },
   "dependencies": {
-    "@alwatr/delay": "workspace:^",
-    "@alwatr/global-this": "workspace:^",
-    "@alwatr/http-primer": "workspace:^",
-    "@alwatr/logger": "workspace:^",
-    "@alwatr/package-tracer": "workspace:^",
-    "@alwatr/parse-duration": "workspace:^"
+    "@alwatr/package-tracer": "workspace:^"
   },
   "devDependencies": {
     "@alwatr/nano-build": "workspace:^",
     "@alwatr/prettier-config": "workspace:^",
     "@alwatr/tsconfig-base": "workspace:^",
     "@alwatr/type-helper": "workspace:^",
-    "jest": "^29.7.0",
     "typescript": "^5.6.3"
   }
 }

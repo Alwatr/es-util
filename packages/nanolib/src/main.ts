@@ -15,3 +15,4 @@ export * from '@alwatr/unicode-digits';
 export * from '@alwatr/resolve-url';
 export * from '@alwatr/env';
 export * from '@alwatr/global-this';
+export * from '@alwatr/http-primer';

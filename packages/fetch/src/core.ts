@@ -1,5 +1,6 @@
 import {delay} from '@alwatr/delay';
 import {getGlobalThis} from '@alwatr/global-this';
+import {HttpStatusCodes, MimeTypes} from '@alwatr/http-primer';
 import {createLogger} from '@alwatr/logger';
 import {packageTracer} from '@alwatr/package-tracer';
 import {parseDuration} from '@alwatr/parse-duration';
@@ -60,14 +61,14 @@ export function processOptions_(options: FetchOptions): Required<FetchOptions> {
 
   if (options.bodyJson !== undefined) {
     options.body = JSON.stringify(options.bodyJson);
-    options.headers['Content-Type'] = 'application/json';
+    options.headers['content-type'] = MimeTypes.JSON;
   }
 
   if (options.bearerToken !== undefined) {
-    options.headers.Authorization = `Bearer ${options.bearerToken}`;
+    options.headers.authorization = `Bearer ${options.bearerToken}`;
   }
   else if (options.alwatrAuth !== undefined) {
-    options.headers.Authorization = `Alwatr ${options.alwatrAuth.userId}:${options.alwatrAuth.userToken}`;
+    options.headers.authorization = `Alwatr ${options.alwatrAuth.userId}:${options.alwatrAuth.userToken}`;
   }
 
   return options as Required<FetchOptions>;
@@ -208,7 +209,7 @@ export async function handleRetryPattern_(options: Required<FetchOptions>): Prom
   try {
     const response = await handleTimeout_(options);
 
-    if (response.status < 500) {
+    if (response.status < HttpStatusCodes.Error_Server_500_Internal_Server_Error) {
       return response;
     }
     // else

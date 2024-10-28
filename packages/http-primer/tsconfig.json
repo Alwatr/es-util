@@ -8,12 +8,5 @@
     "types": ["@alwatr/nano-build", "@alwatr/type-helper"]
   },
   "include": ["src/**/*.ts"],
-  "references": [
-    {"path": "../package-tracer"},
-    {"path": "../logger"},
-    {"path": "../global-this"},
-    {"path": "../delay"},
-    {"path": "../parse-duration"},
-    {"path": "../http-primer"},
-  ]
+  "references": [{"path": "../package-tracer"}]
 }

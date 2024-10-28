@@ -1,9 +1,5 @@
+import type {HttpMethod, HttpRequestHeaders, HttpStatusCode} from '@alwatr/http-primer';
 import type {Duration} from '@alwatr/parse-duration';
-
-/**
- * Represents the available HTTP methods.
- */
-export type HttpMethod = 'GET' | 'POST' | 'PUT' | 'DELETE' | 'PATCH' | 'OPTIONS' | 'HEAD' | 'CONNECT' | 'TRACE';
 
 /**
  * Represents a dictionary of query parameters.
@@ -51,7 +47,7 @@ export interface FetchOptions extends RequestInit {
   /**
    * A Headers object to set the request's headers.
    */
-  headers?: DictionaryReq<string>;
+  headers?: Record<string, string> & HttpRequestHeaders;
 
   /**
    * A timeout for the fetch request.
@@ -139,12 +135,12 @@ export interface FetchOptions extends RequestInit {
 
 export type ResponseSuccess<T extends JsonObject> = T & {
   ok: true;
-  statusCode: number;
+  statusCode: HttpStatusCode;
 };
 
 export type ResponseError = {
   ok: false;
-  statusCode: number;
+  statusCode: HttpStatusCode;
   errorCode: string;
   errorMessage: string;
   responseText?: string;
