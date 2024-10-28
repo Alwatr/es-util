@@ -170,6 +170,19 @@ __metadata:
   languageName: unknown
   linkType: soft
 
+"@alwatr/http-utils@workspace:^, @alwatr/http-utils@workspace:packages/http-utils":
+  version: 0.0.0-use.local
+  resolution: "@alwatr/http-utils@workspace:packages/http-utils"
+  dependencies:
+    "@alwatr/nano-build": "workspace:^"
+    "@alwatr/package-tracer": "workspace:^"
+    "@alwatr/prettier-config": "workspace:^"
+    "@alwatr/tsconfig-base": "workspace:^"
+    "@alwatr/type-helper": "workspace:^"
+    typescript: "npm:^5.6.3"
+  languageName: unknown
+  linkType: soft
+
 "@alwatr/is-number@workspace:^, @alwatr/is-number@workspace:packages/is-number":
   version: 0.0.0-use.local
   resolution: "@alwatr/is-number@workspace:packages/is-number"
@@ -239,6 +252,7 @@ __metadata:
     "@alwatr/flat-string": "workspace:^"
     "@alwatr/flatomise": "workspace:^"
     "@alwatr/global-this": "workspace:^"
+    "@alwatr/http-utils": "workspace:^"
     "@alwatr/is-number": "workspace:^"
     "@alwatr/local-storage": "workspace:^"
     "@alwatr/logger": "workspace:^"
