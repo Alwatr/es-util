@@ -13,7 +13,7 @@ npm install @alwatr/http-primer
 ### HTTP Methods
 
 ```typescript
-import { HttpMethods } from '@alwatr/http-primer';
+import {HttpMethods} from '@alwatr/http-primer';
 
 const method = HttpMethods.GET;
 ```
@@ -21,7 +21,7 @@ const method = HttpMethods.GET;
 ### HTTP Status Codes
 
 ```typescript
-import { HttpStatusCodes } from '@alwatr/http-primer';
+import {HttpStatusCodes} from '@alwatr/http-primer';
 
 const statusCode = HttpStatusCodes.Success_200_OK;
 ```
@@ -29,7 +29,7 @@ const statusCode = HttpStatusCodes.Success_200_OK;
 ### HTTP Headers
 
 ```typescript
-import { HttpRequestHeaders, HttpResponseHeaders } from '@alwatr/http-primer';
+import {HttpRequestHeaders, HttpResponseHeaders} from '@alwatr/http-primer';
 
 const requestHeaders: HttpRequestHeaders = {
   accept: 'application/json',
@@ -40,6 +40,14 @@ const responseHeaders: HttpResponseHeaders = {
   'content-type': 'application/json',
   'content-length': 1234,
 };
+```
+
+### MIME Types
+
+```typescript
+import {MimeTypes} from '@alwatr/http-essentials';
+
+const contentType = MimeTypes.JSON; // 'application/json'
 ```
 
 ## Sponsors
