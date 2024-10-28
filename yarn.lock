@@ -120,6 +120,7 @@ __metadata:
   dependencies:
     "@alwatr/delay": "workspace:^"
     "@alwatr/global-this": "workspace:^"
+    "@alwatr/http-primer": "workspace:^"
     "@alwatr/logger": "workspace:^"
     "@alwatr/nano-build": "workspace:^"
     "@alwatr/package-tracer": "workspace:^"
@@ -170,9 +171,9 @@ __metadata:
   languageName: unknown
   linkType: soft
 
-"@alwatr/http-utils@workspace:^, @alwatr/http-utils@workspace:packages/http-utils":
+"@alwatr/http-primer@workspace:^, @alwatr/http-primer@workspace:packages/http-primer":
   version: 0.0.0-use.local
-  resolution: "@alwatr/http-utils@workspace:packages/http-utils"
+  resolution: "@alwatr/http-primer@workspace:packages/http-primer"
   dependencies:
     "@alwatr/nano-build": "workspace:^"
     "@alwatr/package-tracer": "workspace:^"
@@ -252,7 +253,7 @@ __metadata:
     "@alwatr/flat-string": "workspace:^"
     "@alwatr/flatomise": "workspace:^"
     "@alwatr/global-this": "workspace:^"
-    "@alwatr/http-utils": "workspace:^"
+    "@alwatr/http-primer": "workspace:^"
     "@alwatr/is-number": "workspace:^"
     "@alwatr/local-storage": "workspace:^"
     "@alwatr/logger": "workspace:^"
