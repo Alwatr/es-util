@@ -6,6 +6,10 @@
   "keywords": [
     "http",
     "http-primer",
+    "status-codes",
+    "status",
+    "headers-types",
+    "http-headers",
     "cross-platform",
     "ECMAScript",
     "typescript",
