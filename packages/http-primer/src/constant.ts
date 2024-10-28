@@ -45,7 +45,7 @@ export const HttpMethods = /* #__PURE__ */ {
   /**
    * PATCH: Applies partial modifications to a resource.
    */
-  PATCH: 'PATCH'
+  PATCH: 'PATCH',
 } as const;
 
 /**
@@ -374,7 +374,7 @@ export const HttpStatusCodes = /* #__PURE__ */ {
   /**
    * 511 Network Authentication Required: The client needs to authenticate to gain network access.
    */
-  Error_Server_511_Network_Authentication_Required: 511
+  Error_Server_511_Network_Authentication_Required: 511,
 } as const;
 
 export const HttpStatusMessages = /* #__PURE__ */ {
@@ -418,7 +418,7 @@ export const HttpStatusMessages = /* #__PURE__ */ {
   415: 'Unsupported Media Type',
   416: 'Range Not Satisfiable',
   417: 'Expectation Failed',
-  418: 'I\'m a Teapot',
+  418: "I'm a Teapot",
   421: 'Misdirected Request',
   422: 'Unprocessable Entity',
   423: 'Locked',
