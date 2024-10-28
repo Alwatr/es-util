@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.2.0](https://github.com/Alwatr/nanolib/compare/@alwatr/fetch@4.1.7...@alwatr/fetch@4.2.0) (2024-10-28)
+
+### Features
+
+* **fetch:** use @alwatr/http-primer for types and http codes ([6fe993a](https://github.com/Alwatr/nanolib/commit/6fe993ac0f395a4c0c6ad3b2caa48a2986cc850f)) by @AliMD
+
+### Code Refactoring
+
+* **fetch:** update HTTP headers content-type to use MimeTypes constant ([c3862fc](https://github.com/Alwatr/nanolib/commit/c3862fc6a643da97dacbd15bcf5d3351caaaf269)) by @AliMD
+
 ## [4.1.7](https://github.com/Alwatr/nanolib/compare/@alwatr/fetch@4.1.6...@alwatr/fetch@4.1.7) (2024-10-25)
 
 **Note:** Version bump only for package @alwatr/fetch

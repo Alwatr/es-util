@@ -3,6 +3,16 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.5.0](https://github.com/Alwatr/nanolib/compare/@alwatr/nanolib@1.4.0...@alwatr/nanolib@1.5.0) (2024-10-28)
+
+### Features
+
+* **nanolib:** export `http-utils` ([ab816d2](https://github.com/Alwatr/nanolib/commit/ab816d20640e2999d75f03a07abf724f9818b5de)) by @mohammadhonarvar
+
+### Code Refactoring
+
+* **http-utils:** rename package to http-primer and update description ([3c30e17](https://github.com/Alwatr/nanolib/commit/3c30e1768e506dcbb2c83693c7f9dd3dd157d8af)) by @AliMD
+
 ## [1.4.0](https://github.com/Alwatr/nanolib/compare/@alwatr/nanolib@1.3.0...@alwatr/nanolib@1.4.0) (2024-10-25)
 
 ### Features
