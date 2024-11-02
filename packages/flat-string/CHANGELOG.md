@@ -3,6 +3,59 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 5.0.0 (2024-11-02)
+
+### ⚠ BREAKING CHANGES
+
+* To simplify version management and ensure consistency, all nanolib packages now use the same version as @alwatr/nanolib. This may require updates to your project's dependencies.
+
+### Features
+
+* **flat-string:** add new package for simplifies the complex C structures that are part of a combined JavaScript string ([ebfdcb3](https://github.com/Alwatr/nanolib/commit/ebfdcb368bc111e59d6b920f572d6365eef62144)) by @
+* **prettier-config:** new package for prettier share configs ([a6fdee3](https://github.com/Alwatr/nanolib/commit/a6fdee34591abb1d19e7ea7e431bd6624e2ea6d4)) by @
+* use `package-tracer` ([cc3c5f9](https://github.com/Alwatr/nanolib/commit/cc3c5f9c1a3d03f0d81b46835665f16a0426fd0d)) by @
+
+### Bug Fixes
+
+* all dependeny topology ([1c17f34](https://github.com/Alwatr/nanolib/commit/1c17f349adf3e98e2a80ab2da4f0f81028dc9c5f)) by @
+* build process ([83fc4e6](https://github.com/Alwatr/nanolib/commit/83fc4e609f86c25291e5f89016d6777bf197ffcb)) by @
+* package.json include files ([ec8c807](https://github.com/Alwatr/nanolib/commit/ec8c8075ea88d669a84037077b01f92f6ea078f1)) by @
+* package.json include files ([053fc10](https://github.com/Alwatr/nanolib/commit/053fc10b518038647136db9ada2433e27ecb2e63)) by @
+* tsBuildInfoFile path in tsconfig.json files ([9c4ba01](https://github.com/Alwatr/nanolib/commit/9c4ba01afdd6657de4e5feef09bb6ee03d9ce053)) by @
+* update to latest nano-build with preset ([a4d3c35](https://github.com/Alwatr/nanolib/commit/a4d3c35f9d86521312bd16dd9853519f4ed2e0b4)) by @
+
+### Code Refactoring
+
+* build es by nano-build ([0364e51](https://github.com/Alwatr/nanolib/commit/0364e51d6a594dd104397e6c2147ef3fa3d0066f)) by @
+* **flat-string:** Refactor flatString function signature ([cde9e08](https://github.com/Alwatr/nanolib/commit/cde9e08c5faf58ac188de5a8939dc53b36be7df0)) by @
+* prevent side-effects ([01e00e1](https://github.com/Alwatr/nanolib/commit/01e00e191385cc92b28677df0c01a085916ae677)) by @
+* use the same version as @alwatr/nanolib ([60eb860](https://github.com/Alwatr/nanolib/commit/60eb860a0e33dfffe2d1d95e63ce54c60876be06)) by @
+
+### Miscellaneous Chores
+
+* **flat-string:** Add devDependencies for @alwatr/tsconfig-base ([0b06345](https://github.com/Alwatr/nanolib/commit/0b06345b513f51080af3f0af0688990b42270d1a)) by @
+* **flat-string:** Add scripts to package.json ([b537d8b](https://github.com/Alwatr/nanolib/commit/b537d8b4db43819667c050119050c6c182ba235a)) by @
+* **flat-string:** change the license to AGPL-3.0 ([1f06ca4](https://github.com/Alwatr/nanolib/commit/1f06ca4edc93381ccbe4c8e04ef2f23a4218a2b6)) by @
+* **flat-string:** embed tsconfig.json to package.json ([617835e](https://github.com/Alwatr/nanolib/commit/617835ed3e2c68ea85cb8938d90974b7212c44a0)) by @
+* **flat-string:** Update package.json and yarn.lock ([c71eeb1](https://github.com/Alwatr/nanolib/commit/c71eeb16c539164438ac6b223102f9f779a4c9c8)) by @
+* include LICENSE and LEGAL files to publish ([09f366f](https://github.com/Alwatr/nanolib/commit/09f366f680bfa9fb26acb2cd1ccbc68c5a9e9ad8)) by @
+* rename logger env ([38443ad](https://github.com/Alwatr/nanolib/commit/38443ade4677e857b5ebd4be417f5f2eb1818c87)) by @
+* switch to alwatr prettier configuration ([4426288](https://github.com/Alwatr/nanolib/commit/44262886e613b103743917d6f704f4087943273a)) by @
+* Update build and lint scripts ([392d0b7](https://github.com/Alwatr/nanolib/commit/392d0b71f446bce336b0256119a80f07aff794ba)) by @
+* update clean script to remove all .tsbuildinfo files ([91f1ff2](https://github.com/Alwatr/nanolib/commit/91f1ff20c964d5327879c267f530a131526544d8)) by @
+* Update debug command in package.json ([be8403d](https://github.com/Alwatr/nanolib/commit/be8403dec754f2117259bb915b110ea386596401)) by @
+* Update file patterns in package.json ([1f478e7](https://github.com/Alwatr/nanolib/commit/1f478e7c944da2ee79a843fa756c155ebb06f2c2)) by @
+* update package keywords ([200afcf](https://github.com/Alwatr/nanolib/commit/200afcf53ae1db0e86a775c24ee1d83da771b1c0)) by @
+* Update package.json exports for [@alwatr](https://github.com/alwatr) packages ([dacb362](https://github.com/Alwatr/nanolib/commit/dacb362b145e3c51b4aba00ff643687a3fac11d2)) by @
+
+### Dependencies update
+
+* bump the development-dependencies group across 1 directory with 10 updates ([9ed98ff](https://github.com/Alwatr/nanolib/commit/9ed98ffd0668d5a36e255c82edab3af53bffda8f)) by @
+* bump the development-dependencies group with 10 updates ([fa4aaf0](https://github.com/Alwatr/nanolib/commit/fa4aaf04c907ecae06aa14000ce35216170c15ad)) by @
+* upd ([451d025](https://github.com/Alwatr/nanolib/commit/451d0255ba96ed55f897a6f44f62cf4e6d2b12be)) by @
+* update all dependencies ([1e0c30e](https://github.com/Alwatr/nanolib/commit/1e0c30e6a3a8e19deb5185814e24ab6c08dca573)) by @
+* update all dependencies ([0e908b4](https://github.com/Alwatr/nanolib/commit/0e908b476a6b976ec2447f864c8cafcbb8a0f099)) by @
+
 ## [1.1.8](https://github.com/Alwatr/nanolib/compare/@alwatr/flat-string@1.1.7...@alwatr/flat-string@1.1.8) (2024-11-02)
 
 **Note:** Version bump only for package @alwatr/flat-string

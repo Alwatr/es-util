@@ -3,6 +3,44 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 5.0.0 (2024-11-02)
+
+### ⚠ BREAKING CHANGES
+
+* To simplify version management and ensure consistency, all nanolib packages now use the same version as @alwatr/nanolib. This may require updates to your project's dependencies.
+
+### Features
+
+* use `package-tracer` ([cc3c5f9](https://github.com/Alwatr/nanolib/commit/cc3c5f9c1a3d03f0d81b46835665f16a0426fd0d)) by @
+
+### Bug Fixes
+
+* use new `global-this` package & remove global type & prevent sidee-ffects ([092d448](https://github.com/Alwatr/nanolib/commit/092d44885738ed58215698917ae97c13958f7c7d)) by @
+
+### Code Refactoring
+
+* **delay:** prevent side-effects ([f92eeed](https://github.com/Alwatr/nanolib/commit/f92eeed7d917f6eb3ca9a407fab0b1ea77adc1d4)) by @
+* **delay:** update delay package to use @alwatr/parse-duration for duration delays ([cca1be2](https://github.com/Alwatr/nanolib/commit/cca1be2dcfeec6dce388562ef867b81af1823b62)) by @
+* **delay:** update untilIdle function to accept Duration instead of DurationString ([b3a5c32](https://github.com/Alwatr/nanolib/commit/b3a5c322a1b59833693149da644c7d2eddd6a374)) by @
+* prevent side-effects ([01e00e1](https://github.com/Alwatr/nanolib/commit/01e00e191385cc92b28677df0c01a085916ae677)) by @
+* update Dictionary type definitions ([c94cbc4](https://github.com/Alwatr/nanolib/commit/c94cbc4523864e2cc47828ccf5508b68945ac2b8)) by @
+* use new `global-this` package ([42510b9](https://github.com/Alwatr/nanolib/commit/42510b9ae0e385206a902db093d188949f1cb84e)) by @
+* use new type-helper global types and remove all import types ([08b5d08](https://github.com/Alwatr/nanolib/commit/08b5d08c03c7c315382337239de0426462f384b8)) by @
+* use the same version as @alwatr/nanolib ([60eb860](https://github.com/Alwatr/nanolib/commit/60eb860a0e33dfffe2d1d95e63ce54c60876be06)) by @
+* **wait:** rename package to delay ([cf8c45c](https://github.com/Alwatr/nanolib/commit/cf8c45cf3f5b61fdd4b1b1c7f744c4eb3e230016)) by @
+
+### Miscellaneous Chores
+
+* fix versions ([497a6d8](https://github.com/Alwatr/nanolib/commit/497a6d81ae5989e566e96d498fc5f1b6c80193ae)) by @
+* include LICENSE and LEGAL files to publish ([09f366f](https://github.com/Alwatr/nanolib/commit/09f366f680bfa9fb26acb2cd1ccbc68c5a9e9ad8)) by @
+
+### Dependencies update
+
+* bump the development-dependencies group across 1 directory with 2 updates ([2dfda9e](https://github.com/Alwatr/nanolib/commit/2dfda9ec38a595f1fd961490d1a2fbf060f20a66)) by @
+* bump the development-dependencies group with 10 updates ([fa4aaf0](https://github.com/Alwatr/nanolib/commit/fa4aaf04c907ecae06aa14000ce35216170c15ad)) by @
+* bump the development-dependencies group with 8 updates ([16847ac](https://github.com/Alwatr/nanolib/commit/16847acba91da027c422e3910d0f2dcc1f084e93)) by @
+* update ([4434ba6](https://github.com/Alwatr/nanolib/commit/4434ba67c3f576bb1a0c307fbdb263c43cd9733a)) by @
+
 ## [1.0.8](https://github.com/Alwatr/nanolib/compare/@alwatr/delay@1.0.7...@alwatr/delay@1.0.8) (2024-11-02)
 
 ### Dependencies update

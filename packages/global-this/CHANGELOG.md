@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 5.0.0 (2024-11-02)
+
+### ⚠ BREAKING CHANGES
+
+* To simplify version management and ensure consistency, all nanolib packages now use the same version as @alwatr/nanolib. This may require updates to your project's dependencies.
+* **global-scope:** The global-scope module has been deprecated and should no longer be used. Please update your code to use the global-this module instead.
+
+### Code Refactoring
+
+* **global-scope:** Remove global-scope module and replace with global-this ([b194b27](https://github.com/Alwatr/nanolib/commit/b194b2772628fec30cd41d677232e7393fcded61)) by @
+* use new `global-this` package ([42510b9](https://github.com/Alwatr/nanolib/commit/42510b9ae0e385206a902db093d188949f1cb84e)) by @
+* use the same version as @alwatr/nanolib ([60eb860](https://github.com/Alwatr/nanolib/commit/60eb860a0e33dfffe2d1d95e63ce54c60876be06)) by @
+
+### Dependencies update
+
+* bump the development-dependencies group across 1 directory with 2 updates ([2dfda9e](https://github.com/Alwatr/nanolib/commit/2dfda9ec38a595f1fd961490d1a2fbf060f20a66)) by @
+* bump the development-dependencies group with 8 updates ([16847ac](https://github.com/Alwatr/nanolib/commit/16847acba91da027c422e3910d0f2dcc1f084e93)) by @
+* update ([4434ba6](https://github.com/Alwatr/nanolib/commit/4434ba67c3f576bb1a0c307fbdb263c43cd9733a)) by @
+
 ## [1.0.3](https://github.com/Alwatr/nanolib/compare/@alwatr/global-this@1.0.2...@alwatr/global-this@1.0.3) (2024-11-02)
 
 ### Dependencies update
