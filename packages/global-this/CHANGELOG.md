@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.3](https://github.com/Alwatr/nanolib/compare/@alwatr/global-this@1.0.2...@alwatr/global-this@1.0.3) (2024-11-02)
+
+### Dependencies update
+
+* update ([4434ba6](https://github.com/Alwatr/nanolib/commit/4434ba67c3f576bb1a0c307fbdb263c43cd9733a)) by @AliMD
+
 ## [1.0.2](https://github.com/Alwatr/nanolib/compare/@alwatr/global-this@1.0.1...@alwatr/global-this@1.0.2) (2024-10-25)
 
 ### Dependencies update

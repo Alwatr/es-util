@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.0.8](https://github.com/Alwatr/nanolib/compare/@alwatr/delay@1.0.7...@alwatr/delay@1.0.8) (2024-11-02)
+
+### Dependencies update
+
+* update ([4434ba6](https://github.com/Alwatr/nanolib/commit/4434ba67c3f576bb1a0c307fbdb263c43cd9733a)) by @AliMD
+
 ## [1.0.7](https://github.com/Alwatr/nanolib/compare/@alwatr/delay@1.0.6...@alwatr/delay@1.0.7) (2024-10-25)
 
 ### Dependencies update
