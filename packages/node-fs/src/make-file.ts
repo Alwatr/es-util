@@ -1,4 +1,6 @@
-import {open} from 'node:fs/promises';
+import { existsSync } from 'node:fs';
+import {mkdir, open} from 'node:fs/promises';
+import { dirname } from 'node:path';
 
 import {logger} from './common.js';
 
@@ -9,10 +11,23 @@ import {logger} from './common.js';
  *
  * @example
  * ```ts
- * await makeFile('./file.txt');
+ * await makeFile('./dir/file.txt');
  * ```
  */
 export async function makeEmptyFile(path: string): Promise<void> {
   logger.logMethodArgs?.('makeEmptyFile', '...' + path.slice(-32));
-  return (await open(path, 'w')).close();
+  try {
+    const pathExists = existsSync(path);
+    if (!pathExists) {
+      const dir = dirname(path);
+      if (!existsSync(dir)) {
+        await mkdir(dir, {recursive: true});
+      }
+    }
+    await (await open(path, 'w')).close();
+  }
+  catch (err) {
+    logger.error('makeEmptyFile', 'make_file_failed', {path}, err);
+    throw new Error('make_file_failed', {cause: (err as Error).cause});
+  }
 }
