@@ -38,10 +38,15 @@ export async function fetchJson<T extends JsonObject>(options: FetchOptions): Pr
 
   try {
     response = await fetch(options);
+    if (response.ok === false) {
+      throw new Error(`fetch_response_nok`);
+    }
     responseText = await response.text();
     responseJson = JSON.parse(responseText) as ResponseSuccess<T>;
-    responseJson.ok = true;
-    responseJson.statusCode = response.status as HttpStatusCode;
+    if (responseJson.ok !== true) {
+      throw new Error(`fetch_responseJson_nok`);
+    }
+    responseJson.statusCode ??= response.status as HttpStatusCode;
     return responseJson;
   }
   catch (error) {
