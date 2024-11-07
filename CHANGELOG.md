@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.2.1](https://github.com/Alwatr/nanolib/compare/v5.2.0...v5.2.1) (2024-11-07)
+
+### Bug Fixes
+
+* **fetch:** refine error handling in fetchJson to improve response error structure ([2942563](https://github.com/Alwatr/nanolib/commit/29425639c268f091711ab195a4285e49b762e497)) by @
+
 ## [5.2.0](https://github.com/Alwatr/nanolib/compare/v5.1.0...v5.2.0) (2024-11-06)
 
 ### Features
