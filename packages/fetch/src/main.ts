@@ -38,25 +38,22 @@ export async function fetchJson<T extends JsonObject>(options: FetchOptions): Pr
 
   try {
     response = await fetch(options);
-    if (response.ok === false) {
+    responseText = await response.text();
+    responseJson = JSON.parse(responseText) as (ResponseError | ResponseSuccess<T>);
+    if (responseJson.ok === false) {
       throw new Error(`fetch_response_nok`);
     }
-    responseText = await response.text();
-    responseJson = JSON.parse(responseText) as ResponseSuccess<T>;
-    if (responseJson.ok !== true) {
-      throw new Error(`fetch_responseJson_nok`);
-    }
-    responseJson.statusCode ??= response.status as HttpStatusCode;
+    // responseJson.statusCode ??= response.status as HttpStatusCode;
     return responseJson;
   }
   catch (error) {
     const responseError: ResponseError = {
+      ...responseJson,
       ok: false,
       statusCode: (response?.status as HttpStatusCode) ?? HttpStatusCodes.Error_Server_500_Internal_Server_Error,
       errorCode: (responseJson?.errorCode as string) ?? (error as Error).message,
       errorMessage: (responseJson?.errorMessage as string) ?? (error as Error).message,
-      responseText,
-      meta: responseJson?.meta as JsonObject,
+      // responseText,
     };
 
     logger_.accident('fetchJson', 'fetch_json_failed', {responseError, error});

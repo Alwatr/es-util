@@ -143,6 +143,6 @@ export type ResponseError = {
   statusCode: HttpStatusCode;
   errorCode: string;
   errorMessage: string;
-  responseText?: string;
+  // responseText?: string;
   meta?: Json;
 };
