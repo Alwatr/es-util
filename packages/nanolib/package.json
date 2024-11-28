@@ -99,6 +99,7 @@
     "@alwatr/flatomise": "workspace:^",
     "@alwatr/global-this": "workspace:^",
     "@alwatr/http-primer": "workspace:^",
+    "@alwatr/iranian-national-code-validator": "workspace:^",
     "@alwatr/is-number": "workspace:^",
     "@alwatr/local-storage": "workspace:^",
     "@alwatr/logger": "workspace:^",
