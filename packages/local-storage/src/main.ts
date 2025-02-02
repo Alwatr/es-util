@@ -1,4 +1,4 @@
-import type {Json, JsonValue} from '@alwatr/type-helper';
+import type { Json, JsonValue } from '@alwatr/type-helper';
 
 /**
  * Parse json string without throwing error.
@@ -56,12 +56,34 @@ export const localJsonStorage = {
    * ```
    */
   getItem<T extends Json>(name: string, defaultValue: T, version = 1): T {
+    if (version > 1) {
+      this.removeItem(name, version - 1);
+    }
     const key = this.key_(name, version);
     const value = localStorage.getItem(key);
-    if (value === null) return defaultValue;
+    if (value === null) {
+      localStorage.setItem(key, JSON.stringify(defaultValue));
+      return defaultValue;
+    }
     const json = parseJson<T>(value);
     if (json === null || typeof json !== 'object') return defaultValue;
     return json;
+  },
+
+  /**
+   * Check if an item exists in local storage.
+   *
+   * @param name - The name of the item.
+   * @param version - The version of the item (default: 1).
+   * @returns True if the item exists, false otherwise.
+   * @example
+   * ```typescript
+   * const exists = localJsonStorage.hasItem('myItem');
+   * ```
+   */
+  hasItem(name: string, version = 1): boolean {
+    const key = this.key_(name, version);
+    return localStorage.getItem(key) !== null;
   },
 
   /**
