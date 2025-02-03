@@ -3,6 +3,12 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.3.1](https://github.com/Alwatr/nanolib/compare/@alwatr/polyfill-has-own@5.3.0...@alwatr/polyfill-has-own@5.3.1) (2025-02-03)
+
+### Bug Fixes
+
+* **polyfill:** correct binding of Object.hasOwn to use Object.call ([1fe8e05](https://github.com/Alwatr/nanolib/commit/1fe8e057567bc7621631d37cee4885688c49b1a6)) by @
+
 ## [5.3.0](https://github.com/Alwatr/nanolib/compare/v5.2.1...v5.3.0) (2025-02-03)
 
 ### Miscellaneous Chores
