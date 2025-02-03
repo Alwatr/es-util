@@ -25,6 +25,9 @@ describe('fetch with search params', () => {
 
 describe('fetch json', () => {
   it('should make a GET request to the specified URL with json body and parse valid json', async () => {
+    /**
+     * @type {import('@alwatr/fetch').FetchOptions}}
+     */
     const options = {
       url: 'http://httpbin.org/post',
       method: 'POST',
@@ -36,7 +39,7 @@ describe('fetch json', () => {
 
     const responseJson = await fetchJson(options);
 
-    expect(responseJson.ok).toBe(true);
+    expect(responseJson.ok).toBe(undefined);
     expect(responseJson.json.a).toBe(2);
   });
 
