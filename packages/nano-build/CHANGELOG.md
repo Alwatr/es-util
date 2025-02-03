@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.3.0](https://github.com/Alwatr/nanolib/compare/v5.2.1...v5.3.0) (2025-02-03)
+
+### Miscellaneous Chores
+
+* edit README ([3860b3d](https://github.com/Alwatr/nanolib/commit/3860b3df48ab82dc479d5236c2e8579df614aabf)) by @ArmanAsadian
+
+### Dependencies update
+
+* bump esbuild in the production-dependencies group ([97b1ced](https://github.com/Alwatr/nanolib/commit/97b1ced6218d154e53a7b8d238f5a8681ef4efd8)) by @dependabot[bot]
+* bump the development-dependencies group across 1 directory with 11 updates ([cb79d07](https://github.com/Alwatr/nanolib/commit/cb79d072a57c79e1c01abff1a293d6757bb65350)) by @dependabot[bot]
+* update typescript and @types/node to version 5.7.3 and 22.13.0 respectively across multiple packages ([ddab05b](https://github.com/Alwatr/nanolib/commit/ddab05b5d767c30191f36a065e4bc88744e8e3fe)) by @alimd
+
 ## 5.0.0 (2024-11-02)
 
 ### ⚠ BREAKING CHANGES

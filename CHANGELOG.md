@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [5.3.0](https://github.com/Alwatr/nanolib/compare/v5.2.1...v5.3.0) (2025-02-03)
+
+### Features
+
+* **local-storage:** add setItem after getItem and add hasItem ([a1b845d](https://github.com/Alwatr/nanolib/commit/a1b845d8d9d207b514f9e06c37610220337b0235)) by @ArmanAsadian
+
+### Miscellaneous Chores
+
+* edit README ([3860b3d](https://github.com/Alwatr/nanolib/commit/3860b3df48ab82dc479d5236c2e8579df614aabf)) by @ArmanAsadian
+
+### Dependencies update
+
+* bump cross-spawn from 7.0.3 to 7.0.6 ([43466b9](https://github.com/Alwatr/nanolib/commit/43466b92b0d9fc6441c9a050727b9f20f62f813d)) by @dependabot[bot]
+* bump esbuild in the production-dependencies group ([97b1ced](https://github.com/Alwatr/nanolib/commit/97b1ced6218d154e53a7b8d238f5a8681ef4efd8)) by @dependabot[bot]
+* bump the development-dependencies group across 1 directory with 11 updates ([cb79d07](https://github.com/Alwatr/nanolib/commit/cb79d072a57c79e1c01abff1a293d6757bb65350)) by @dependabot[bot]
+* bump the github-actions group across 1 directory with 4 updates ([524a134](https://github.com/Alwatr/nanolib/commit/524a134a57628b135a50745947415942b151f493)) by @dependabot[bot]
+* update typescript and @types/node to version 5.7.3 and 22.13.0 respectively across multiple packages ([ddab05b](https://github.com/Alwatr/nanolib/commit/ddab05b5d767c30191f36a065e4bc88744e8e3fe)) by @alimd
+
 ## [5.2.1](https://github.com/Alwatr/nanolib/compare/v5.2.0...v5.2.1) (2024-11-07)
 
 ### Bug Fixes
