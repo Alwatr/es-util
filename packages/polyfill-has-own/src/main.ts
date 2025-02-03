@@ -17,5 +17,5 @@ __dev_mode__: packageTracer.add(__package_name__, __package_version__);
  */
 if (Object.prototype.hasOwnProperty.call(Object, 'hasOwn') === false) {
   // @ts-expect-error - TS doesn't know about this polyfill
-  Object.hasOwn = Object.prototype.call.bind(Object.prototype.hasOwnProperty);
+  Object.hasOwn = Object.call.bind(Object.prototype.hasOwnProperty);
 }
